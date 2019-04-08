@@ -135,19 +135,34 @@
 	<!-- End Header Area -->
 
 
-	<!--================Login Box Area =================-->
+	<!--================bkash Box Area =================-->
 	<section class="login_box_area section_gap">
 		<div class="container">
 				<div class="col-lg-12">
 					<div class="login_form_inner">
-						<h3>Choose your payment method</h3>
+						<h3>Bkash Payment</h3>
             <div class="contaner">
               <div class="row">
-                <div class="col-lg-6">
-                  <a href="card-payment.php">	<img class="payment" src="img/brand/6.png" alt=""></a>
-                </div>
-                <div class="col-lg-6">
-                  <a href="bkash-payment.php">	<img class="payment" src="img/brand/4.png" alt=""></a>
+                <div class="col-lg-12">
+                  <p>
+                    1. For App Payment <br>
+2. Make Payment <br>
+3. Enter Daraz Merchant Number: 01 966 114 400 <br>
+4. Enter total order amount <br>
+5. Enter Reference Number (as displayed above) <br>
+6. Verify your payment by entering your PIN <br>
+7. It might take up to 15 minutes for payment verification <br>
+8. For USSD Payment follow below steps <br>
+9. Dial *247# to view bKash Menu <br>
+10. Press 3 for "Payments" <br>
+11. Enter Daraz Merchant Number: 01 966 114 400 <br>
+12. Enter total order amount <br>
+13. Enter Reference Number (as displayed above) <br>
+14. Enter 1 for the bKash Counter No <br>
+15. Verify your payment by entering your PIN <br>
+16. It might take up to 15 minutes for payment verification <br>
+17. Please note that Daraz will not accept split bKash payments for a single order. All bKash order payment must be on the exact order amount. Split payments will result in cancelled orders and will not be eligible for cashback
+                  </p>
                 </div>
               </div>
             </div>
@@ -155,7 +170,7 @@
 				</div>
 		</div>
 	</section>
-	<!--================End Login Box Area =================-->
+	<!--================End bkash Box Area =================-->
 
 	<!-- start footer Area -->
 	<footer class="footer-area section_gap">

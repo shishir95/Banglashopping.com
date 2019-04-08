@@ -21,3 +21,4 @@ $charge = \Stripe\Charge::create(array(
   "currency" => "BDT" ,
   "customer" => $customer->id
 ));
+?>
