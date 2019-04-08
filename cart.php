@@ -1,6 +1,15 @@
 <?php
 session_start();
-include("db/db.php");
+$pdo = new PDO("mysql:host=localhost;dbname=banglashop","root","");
+$getAll = "SELECT c_name,c_price FROM cart WHERE cart.u_id= 1";
+$stmt= $pdo->prepare($getAll);
+$stmt->execute();
+$result = $stmt->fetchAll();
+foreach ($result as $value) {
+
+echo $value['c_name'];
+echo $value['c_price'];
+}
  ?>
 
 <!DOCTYPE html>
