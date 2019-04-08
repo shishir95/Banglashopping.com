@@ -154,12 +154,12 @@
               </div>
             </div>
             <div class="col-lg-6 card-info-box">
-              <form action="" method="post" id="payment-form">
+              <form action="charge.php" method="post" id="payment-form">
                 <div class="form-row">
                   <label for="card-element">
                     Name:
                   </label><br>
-                  <input id="cardname" class="form-control" type="text" name="" value="" placeholder="Name on Card">
+                  <input id="cardname" class="form-control" type="text" name="card_name" value="" placeholder="Name on Card">
                   <label for="card-element">
                     Credit or debit card
                   </label> <br>
@@ -170,7 +170,7 @@
                   <!-- Used to display form errors. -->
                   <div id="card-errors" role="alert"></div>
                 </div>
-                <a id="order-confirm" class="submit-button"  type="submit" href="#">Confirm Order</a>
+                <button class="submit-button" id="order-confirm" type="submit" name="button">confirm order</button>
                </form>
             </div>
 					</div>

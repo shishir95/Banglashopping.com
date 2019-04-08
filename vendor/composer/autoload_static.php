@@ -11,6 +11,10 @@ class ComposerStaticInite4f52e7e3d7ab3cf281e252610007f26
     );
 
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Stripe\\' => 7,
+        ),
         'F' => 
         array (
             'Facebook\\' => 9,
@@ -18,6 +22,10 @@ class ComposerStaticInite4f52e7e3d7ab3cf281e252610007f26
     );
 
     public static $prefixDirsPsr4 = array (
+        'Stripe\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
+        ),
         'Facebook\\' => 
         array (
             0 => __DIR__ . '/..' . '/facebook/graph-sdk/src/Facebook',

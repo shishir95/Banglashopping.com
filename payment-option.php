@@ -147,7 +147,7 @@
                   <a href="card-payment.php">	<img class="payment" src="img/brand/6.png" alt=""></a>
                 </div>
                 <div class="col-lg-6">
-                  <a href="#">	<img class="payment" src="img/brand/4.png" alt=""></a>
+                  <a href="bkash-payment.php">	<img class="payment" src="img/brand/4.png" alt=""></a>
                 </div>
               </div>
             </div>
